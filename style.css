@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff;
+    color: #222;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.crud{
+    width: 80%;
+    margin: auto;
+}
+.crud-head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+input{
+    width: 100%; height: 30px;
+    border: none;
+    outline: none;
+    background: #eee5e5;
+    margin: 4px 0;
+    border-radius: 5px;
+    padding: 4px;
+}
+input:focus{
+    color: #000000;
+    transform: scale(1.1);
+}
+.price input{
+    width: 20%;
+}
+#total{
+    padding: 4px 2px;
+    background: #ffdbc3;
+    border-radius: 4px;
+}
+#total::before{
+    content: 'Total: ';
+}
+button{
+    width: 100%; height: 30px;
+    border: none;
+    cursor: pointer;
+    background: #3d246c;
+    color: #fff;
+    border-radius: 20px;
+}
+button:hover{
+    background: #5c4b99;
+    letter-spacing: 1px;
+    transition: .5s ease ;
+}
+.button-search{
+    display: flex;
+    justify-content: space-between;
+}
+.button-search button{
+    width: 45%;
+}
+#deleteAll{
+    margin: 20px 0;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+table th{
+     text-transform: uppercase;
+}
+th,td{
+    padding: 5px;
+}
